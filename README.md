@@ -1,6 +1,6 @@
 # SQL_my_own_project
 
-# This project is example of data managing in some sport center. I would like to present some queries. Furthermore I will update this project gradually.
+# This project is example of data managing in some sport center. I would like to present some queries. Furthermore, I will update this project gradually.
 
 ## 1 . I called database "SQL-exercises" and there are careted three tables.
 

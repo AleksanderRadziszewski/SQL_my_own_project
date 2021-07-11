@@ -20,3 +20,18 @@
 
 <img width="718" alt="facilities" src="https://user-images.githubusercontent.com/56914063/124776177-84454d00-df3f-11eb-9ee6-4a0bd46ca137.png">
 
+## 3. Inserting data into the particular table.
+
+To insert over 100 objects into "members" table I used "mockaroo" tool, which made it easier.
+
+### a) mackaroo
+
+<img width="511" alt="Zrzut ekranu 2021-07-8 o 17 24 56" src="https://user-images.githubusercontent.com/56914063/124949071-8b3c9000-e011-11eb-85c1-05a0e66ec369.png">
+
+### b) data in "members" table
+
+<img width="854" alt="Zrzut ekranu 2021-07-8 o 17 20 43" src="https://user-images.githubusercontent.com/56914063/124949192-a0b1ba00-e011-11eb-8f67-3c08a038dc84.png">
+
+
+
+

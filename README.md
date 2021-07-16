@@ -41,6 +41,13 @@ To insert over 100 objects into "members" table I used "mockaroo" tool, which ma
 
 <img width="1280" alt="bookings" src="https://user-images.githubusercontent.com/56914063/125286770-76674180-e31c-11eb-882f-ec1f596594de.png">
 
+### 4. Some SQL queries
+
+a) Get all members(members and guest) with cost over 60000
+
+<img width="576" alt="Zrzut ekranu 2021-07-16 o 11 49 34" src="https://user-images.githubusercontent.com/56914063/125929563-003406e6-abdb-4908-97a2-49b66f625b25.png">
+
+
 
 
 

@@ -43,7 +43,9 @@ To insert over 100 objects into "members" table I used "mockaroo" tool, which ma
 
 ### 4. Some SQL queries
 
-a) Get all members(members and guest) with cost over 60000
+a) Get all members(members and guest) with cost over 60000 and on specific dates. 
+
+The guests have different costs to members, and the guest user is always NULL. This list is produced for term between 2020-08-01 and 2021-08-30.
 
 <img width="576" alt="Zrzut ekranu 2021-07-16 o 11 49 34" src="https://user-images.githubusercontent.com/56914063/125929563-003406e6-abdb-4908-97a2-49b66f625b25.png">
 

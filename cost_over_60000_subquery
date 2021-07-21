@@ -1,0 +1,19 @@
+SELECT member, facility, cost FROM
+(
+    SELECT
+        mems.firstname ||' '|| mems.surname as member,
+        facs.name_court as facility,
+        CASE
+            WHEN mems.memid=NULL THEN bks.slots*facs.guestcost
+            ELSE bks.slots*facs.membercost
+        END AS cost
+        FROM 
+            members mems
+            INNER JOIN bookings bks ON mems.memid=bks.memid
+            INNER JOIN facilities facs ON facs.facid=bks.facid
+        WHERE
+        bks.starttime>='2020-08-01' AND
+		bks.starttime <'2021-08-30'
+) AS bookings
+WHERE cost>60000
+ORDER BY cost DESC;
